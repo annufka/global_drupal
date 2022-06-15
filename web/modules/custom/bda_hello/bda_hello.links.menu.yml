@@ -1,0 +1,19 @@
+bda_hello.menu_news:
+  title: 'News'
+  description: 'View from module'
+  expanded: 1
+  route_name: bda_hello.news
+
+bda_hello.menu_last_news:
+  title: 'Last news'
+  description: 'View from module'
+  expanded: 1
+  route_name: bda_hello.last_news
+
+bda_hello.add_news:
+  title: 'Add news'
+  description: 'View from module'
+  expanded: 1
+  route_name: bda_hello.add_news
+
+

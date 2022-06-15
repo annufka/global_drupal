@@ -1,0 +1,10 @@
+id: set_now_action
+label: 'Update publication date'
+status: true
+langcode: en
+#type: node
+plugin: set_now_action
+dependencies:
+  module:
+    - node
+configuration: {  }

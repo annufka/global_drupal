@@ -1,0 +1,18 @@
+bda_config_entity.product_config.*:
+  type: config_entity
+  label: Product_config
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    uuid:
+      type: string
+    category:
+      type: string
+    price:
+      type: integer
+    some_bool:
+      type: boolean

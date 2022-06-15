@@ -1,0 +1,5 @@
+entity.product_type.collection:
+  title: 'Product types'
+  description: 'Manage and CRUD actions on Product type.'
+  parent: system.admin_structure
+  route_name: entity.product_type.collection

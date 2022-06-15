@@ -1,0 +1,6 @@
+test_task.settings_form:
+  title: 'Test task'
+  description: 'Configure Test task.'
+  parent: system.admin_config_system
+  route_name: test_task.settings_form
+  weight: 10

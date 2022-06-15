@@ -1,0 +1,4 @@
+administer test_task configuration:
+  title: 'Administer test_task configuration'
+  description: 'Optional description.'
+  restrict access: true
