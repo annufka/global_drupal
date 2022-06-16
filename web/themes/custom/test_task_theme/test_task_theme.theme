@@ -40,4 +40,5 @@ function test_task_theme_preprocess_node(&$variables) {
   }
   $variables['content']['field_news_description'][0]['#text'] = $description;
   $variables['content']['field_news_description'][0]['#format'] = 'full_html';
+
 }
