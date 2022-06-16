@@ -4,3 +4,80 @@
  * @file
  * Primary module hooks for Test task module.
  */
+
+/**
+ * Implements hook_entity_presave().
+ */
+//function test_task_entity_presave(\Drupal\Core\Entity\EntityInterface $entity)
+//{
+//  if (!$entity->getEntityTypeId() == 'node' && !$entity->getType() == 'news') {
+//    return;
+//  }
+//  $description = $entity->get("field_news_description")->value;
+////  code
+//  $entity->set("field_news_description", $description);
+//}
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+//function test_task_node_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode)
+//{
+//  if (!$entity->getEntityTypeId() == 'node' && !$entity->getType() == 'news') {
+//    return;
+//  }
+////  if ($view_mode == "full") {}
+//
+//  $description = $entity->get('field_news_description')->value;
+//
+//  $termStorage = \Drupal::entityTypeManager()->getStorage('taxonomy_term');
+//  $ids = $termStorage->getQuery()
+//    ->condition('vid', 'vocabulary')
+//    ->execute();
+//
+//  $vocabulary = [];
+//  foreach ($termStorage->loadMultiple($ids) as $item) {
+//    $vocabulary[$item->id()] = $item->label();
+//  }
+//
+//  foreach ($vocabulary as $taxonomy) {
+//    $html_description = str_replace($taxonomy, "<a title='Descpiption' href=''>$taxonomy</a>", $description);
+//  }
+//  $build['field__item'] = [
+//    '#type' => 'container',
+//    '#attributes' => [
+//      'class' => ['field__item'],
+//    ],
+//  ];
+//  $build['field__item']['p'] = [
+//    '#type' => 'html_tag',
+//    '#tag' => 'p',
+//    '#value' => $html_description,
+//  ];
+//  return $build;
+//
+//}
+
+///**
+// * Implements hook_views_pre_render().
+// */
+//function test_task_views_pre_render(ViewExecutable $view)
+//{
+//  if ($view->id() == "news" && $view->current_display == 'news') {
+//    $description = $view->get('field_news_description')->value;
+//    $termStorage = \Drupal::entityTypeManager()->getStorage('taxonomy_term');
+//  $ids = $termStorage->getQuery()
+//    ->condition('vid', 'vocabulary')
+//    ->execute();
+//
+//  $vocabulary = [];
+//  foreach ($termStorage->loadMultiple($ids) as $item) {
+//    $vocabulary[$item->id()] = $item->label();
+//  }
+//
+//  foreach ($vocabulary as $taxonomy) {
+//    $description = str_replace($taxonomy, "<a title='Descpiption' href=''>$taxonomy</a>", $description);
+//  }
+//  }
+//}
+

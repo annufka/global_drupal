@@ -24,7 +24,10 @@ class AddTaxonomyForm extends FormBase {
       '#required' => TRUE,
     );
     $form['taxonomy_description'] = array(
-      '#type' => 'textfield',
+//      '#type' => 'textfield',
+//      '#size' => 100,
+//      '#maxlength' => 700,
+      '#type' => 'textarea',
       '#title' => $this->t('Taxonomy Description:'),
       '#required' => TRUE,
     );

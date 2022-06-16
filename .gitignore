@@ -54,5 +54,5 @@
 /.env
 
 # Ignore forntend deps.
-web/themes/custom/beetroot_example_theme/node_modules/
-web/themes/custom/beetroot_example_theme/dist/
+web/themes/custom/test_task_theme/node_modules/
+web/themes/custom/test_task_theme/dist/
